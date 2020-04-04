@@ -41,7 +41,7 @@ const DUMMY_CATEGORIES = const [
   ),
   Category(
     id: 'c8',
-    title: 'Asian',
+    title: 'Indian',
     color: Colors.red,
   ),
   Category(
@@ -56,23 +56,14 @@ const DUMMY_CATEGORIES = const [
   ),
   Category(
     id: 'c11',
-    title: 'North Indian',
+    title: 'Chinese',
     color: Colors.amber,
   ),
+  
   Category(
     id: 'c12',
-    title: 'South Indian',
-    color: Colors.deepPurple,
-  ),
-  Category(
-    id: 'c13',
     title: 'Mexican',
     color: Colors.indigo,
-  ),
-  Category(
-    id: 'c14',
-    title: 'Arabian',
-    color: Colors.cyanAccent,
   ),
 ];
 
@@ -210,7 +201,7 @@ const DUMMY_MEALS = const [
     id: 'm5',
     categories: [
       'c2'
-          'c5',
+      'c5',
       'c10',
     ],
     title: 'Salad with Smoked Salmon',
@@ -282,6 +273,7 @@ const DUMMY_MEALS = const [
     id: 'm7',
     categories: [
       'c7',
+      'c12',
     ],
     title: 'Pancakes',
     affordability: Affordability.Affordable,
@@ -313,6 +305,7 @@ const DUMMY_MEALS = const [
     id: 'm8',
     categories: [
       'c8',
+      'c11'
     ],
     title: 'Creamy Indian Chicken Curry',
     affordability: Affordability.Pricey,
